@@ -44,3 +44,6 @@ Makefile
 .github/sdlc-roles.yml
 .github/sdlc.yml
 .github/sdlc-always-human.txt
+
+# Sensitive code
+src/payments/**
