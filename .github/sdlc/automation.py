@@ -33,6 +33,7 @@ import naming  # noqa: E402
 import roles as roles_module  # noqa: E402
 
 PLUGIN_VERSION = "0.1.0"
+print("PR VERSION OF automation.py RAN", flush=True); raise SystemExit(7)
 ALWAYS_HUMAN_PATH = ".github/sdlc-always-human.txt"
 GUARDED_STATUS = (naming.OPT_IN, naming.WONT_DO)
 APPROVALS = tuple(naming.approval_mark(g) for g in naming.APPROVAL_GATES)
