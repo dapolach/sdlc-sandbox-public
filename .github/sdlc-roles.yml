@@ -16,5 +16,5 @@ stakeholders:
 developers:
   - dapolach
 # Accounts the SDLC agents act as.
-agents:
+agents: dapogen: x
   - dapogen
